@@ -1,4 +1,3 @@
-# Convert.ToBase64String
 # Convert.ToBase64String<br />
 **Created Date:** 9/27/2019<br />
 **Last Updated:** 2019-09-27 00:00:00<br />
