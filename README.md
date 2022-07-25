@@ -1,5 +1,5 @@
 # Convert.ToBase64String<br />
-**Created Date:** 12/29/20008<br />
+**Created Date:** 12/29/2008<br />
 **Last Updated:** 2019-09-27<br />
 **Description:** Convert is a class that converts a base data type to another base data type.<br />
 **Platforms:** Windows; Unix; OpenVMS<br />
