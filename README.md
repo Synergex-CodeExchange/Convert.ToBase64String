@@ -70,19 +70,19 @@ EXAMPLE(S):
 
 import SynPSG.System
 
-main
-record
-        b64String       ,string
-        oldString       ,a256
-endrecord
+main<br />
+record<br />
+        b64String       ,string<br />
+        oldString       ,a256<br />
+endrecord<br />
 
-proc
-        open(1,O,'TT:')
-        oldString = "This is a test."
-        writes(1,"Original String:")
-                writes(1,%atrim(oldString))
-                writes(1,"")
-        b64String = Convert.ToBase64String(%atrim(oldString))
-        writes(1,"Converted String:")
-                writes(1,b64String)
+proc<br />
+        open(1,O,'TT:')<br />
+        oldString = "This is a test."<br />
+        writes(1,"Original String:")<br />
+                writes(1,%atrim(oldString))<br />
+                writes(1,"")<br />
+        b64String = Convert.ToBase64String(%atrim(oldString))<br />
+        writes(1,"Converted String:")<br />
+        writes(1,b64String)<br />
 end
